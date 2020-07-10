@@ -9,9 +9,9 @@ app.all('/', function(req, res, next) {
  });
 
 app.get('/', function (req, res) {
-  if(req.query['url']){
+  if(req.query['u']){
 
-    var siteUrl = req.query['url'];
+    var siteUrl = req.query['u'];
     var options = {
       'url': siteUrl,
       'headers': {
