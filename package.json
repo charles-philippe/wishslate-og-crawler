@@ -1,0 +1,17 @@
+{
+  "name": "WhishSlate-Bookmarklet",
+  "version": "0.0.3",
+  "description": "Extract Open Graph info.",
+  "scripts": {
+    "start": "node WhishSlate_Server.js",
+    "test": "echo \"Error: no test implemented yet\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "open-graph-scraper": "^2.5.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alphaboy/WhishSlate-Bookmarklet"
+  }
+}
