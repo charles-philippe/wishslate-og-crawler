@@ -23,14 +23,15 @@ app.get('/', function (req, res) {
 
     ogs(options, function (err, results, response) {
       if(results.err){
-        //res.json(results.err);
+        res.json(results.err);
       } else {
         //res.json(results);
         //res.end();
 
+
         res.render('pages/index', {
-    results: results
-  });
+          results: results
+        });
 
         
       }

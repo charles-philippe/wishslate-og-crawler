@@ -6,12 +6,30 @@
 <body class="container">
 
 		<img src="logo01.png">
-        <h1><%= results.data.ogTitle %></h1>
-        <p>Welcome to templating using EJS</p>
-  
+        <h2><%= results.data.ogTitle %></h2>
+        
+        <br><br>
+
+        <p><%= results.data.ogDescription %></p>
+
+        <br>
+
+        <h3><%= results.data.ogType %></h3>
+
+        <br>
+
+        <h3><%= results.data.ogURL %></h3>
+
+        <br>
+
+        <h3><%= results.data.ogTitle %></h3>
 
 
+        <img src="<%= results.data.ogImage.url %>" width="<%= results.data.ogImage.width %>" height="<%= results.data.ogImage.height %>" alt="">
+    	
 
+
+        <button>Add this to your WhishSlate</button>
 
 </body>
 </html>
